@@ -6,7 +6,7 @@ toolchain go1.24.5
 
 require (
 	dario.cat/mergo v1.0.2
-	fyne.io/fyne/v2 v2.7.0
+	fyne.io/fyne/v2 v2.7.1
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/alecthomas/kong v1.12.1
 	github.com/charmbracelet/glamour v0.10.0
@@ -58,8 +58,8 @@ require (
 	go.opentelemetry.io/otel/exporters/prometheus v0.60.0
 	go.opentelemetry.io/otel/metric v1.38.0
 	go.opentelemetry.io/otel/sdk/metric v1.38.0
+	go.yaml.in/yaml/v2 v2.4.2
 	google.golang.org/grpc v1.76.0
-	google.golang.org/protobuf v1.36.8
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	oras.land/oras-go/v2 v2.6.0
@@ -143,12 +143,12 @@ require (
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
 	go.uber.org/mock v0.5.2 // indirect
-	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/image v0.25.0 // indirect
 	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/telemetry v0.0.0-20250908211612-aef8a434d053 // indirect
 	golang.org/x/time v0.12.0 // indirect
+	google.golang.org/protobuf v1.36.8 // indirect
 )
 
 require (
